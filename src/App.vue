@@ -4,6 +4,7 @@
     <banner/>
     <residence/>
     <property/>
+    <amenities/>
   </div>
 </template>
 
@@ -12,11 +13,12 @@
   import banner from "@/components/banner/banner.vue";
   import residence from "@/components/residence/residence.vue";
   import property from "./components/property/property.vue";
+  import amenities from "./components/amenities/amenities.vue";
 
   export default {
     name: 'App',
     components: {
-      headr, banner, residence, property,
+      headr, banner, residence, property, amenities,
     }
   }
 </script>
