@@ -10,3 +10,24 @@
 
   }
 </script>
+
+<style scoped>
+  div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h2 {
+    font-size: 38px;
+    width: 371px;
+    margin: 0px;
+  }
+
+  p {
+    font-size: 16px;
+    width: 560px;
+    text-align: left;
+    margin: 0px;
+  }
+</style>
