@@ -15,3 +15,13 @@
     }
   }
 </script>
+
+<style scoped>
+  section {
+    position: relative;
+    width: 91%;
+    height: 600px;
+    background-image: url("@/assets/jpg/banner-bg.jpg");
+    margin: 0px auto;
+  }
+</style>
