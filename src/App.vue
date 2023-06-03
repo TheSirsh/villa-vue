@@ -1,16 +1,18 @@
 <template>
   <div>
     <headr/>
+    <banner/>
   </div>
 </template>
 
 <script>
   import headr from "@/components/header/headr.vue";
+  import banner from "@/components/banner/banner.vue"
 
   export default {
     name: 'App',
     components: {
-      headr,
+      headr, banner,
     }
   }
 </script>
