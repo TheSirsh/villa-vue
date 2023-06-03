@@ -3,6 +3,7 @@
     <headr/>
     <banner/>
     <residence/>
+    <property/>
   </div>
 </template>
 
@@ -10,11 +11,12 @@
   import headr from "@/components/header/headr.vue";
   import banner from "@/components/banner/banner.vue";
   import residence from "@/components/residence/residence.vue";
+  import property from "./components/property/property.vue";
 
   export default {
     name: 'App',
     components: {
-      headr, banner, residence,
+      headr, banner, residence, property,
     }
   }
 </script>
