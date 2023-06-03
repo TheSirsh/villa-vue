@@ -15,3 +15,21 @@
     }
   }
 </script>
+
+<style scoped>
+  h2 {
+    font-size: 38px;
+    color: #ffffff;
+    text-align: left;
+    margin: 0px;
+    width: 196px;
+  }
+
+  p {
+    font-size: 16px;
+    color: #ffffff;
+    text-align: left;
+    margin: 0px;
+    width: 443px;
+  }
+</style>

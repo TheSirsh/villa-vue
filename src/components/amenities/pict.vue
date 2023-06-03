@@ -11,7 +11,7 @@
 </script>
 
 <style scoped>
-  div {
+  img {
     width: 680px;
     height: 440px;
   }

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="characteristics">
     <div>
       <p>Swimming Pool</p>
       <p>45 Sq Ft</p>
@@ -32,3 +32,16 @@
 
   }
 </script>
+
+<style scoped>
+  .characteristics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  p {
+    color: #ffffff;
+    font-size: 16px;
+    text-align: left;
+  }
+</style>
