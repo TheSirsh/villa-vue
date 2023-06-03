@@ -2,17 +2,19 @@
   <div>
     <headr/>
     <banner/>
+    <residence/>
   </div>
 </template>
 
 <script>
   import headr from "@/components/header/headr.vue";
-  import banner from "@/components/banner/banner.vue"
+  import banner from "@/components/banner/banner.vue";
+  import residence from "@/components/residence/residence.vue";
 
   export default {
     name: 'App',
     components: {
-      headr, banner,
+      headr, banner, residence,
     }
   }
 </script>
