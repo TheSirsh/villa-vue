@@ -1,8 +1,14 @@
 <template>
   <ul>
-    <li>Insta</li>
-    <li>Twit</li>
-    <li>Face</li>
+    <li>
+      <a href="#"><img src="@/assets/svg/Instagramm.svg" alt="Instagramm"></a>
+    </li>
+    <li>
+      <a href="#"><img src="@/assets/svg/Twitter.svg" alt="Twitter"></a>
+    </li>
+    <li>
+      <a href="#"><img src="@/assets/svg/Facebook.svg" alt="Facebook"></a>
+    </li>
   </ul>
 </template>
 
@@ -11,3 +17,17 @@
     
   }
 </script>
+
+<style scoped>
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+  }
+
+  li {
+    width: 20px;
+  }
+</style>

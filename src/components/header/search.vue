@@ -1,6 +1,6 @@
 <template>
   <div>
-    search
+    <a href="#"><img src="@/assets/svg/Search.svg" alt="Search"></a>
   </div>
 </template>
 
@@ -9,3 +9,10 @@
     
   }
 </script>
+
+<style>
+  img {
+    width: 18px;
+    height: 18px;
+  }
+</style>
