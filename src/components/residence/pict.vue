@@ -9,3 +9,10 @@
 
   }
 </script>
+
+<style scoped>
+  img {
+    width: 560px;
+    height: 555px;
+  }
+</style>

@@ -15,3 +15,22 @@
     }
   }
 </script>
+
+<style scoped>
+  div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h2 {
+    font-size: 38px;
+    margin: 0px;
+    text-align: left;
+  }
+
+  p {
+    font-size: 16px;
+    margin: 0px;
+    text-align: left;
+  }
+</style>
