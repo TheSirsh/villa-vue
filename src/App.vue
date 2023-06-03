@@ -1,12 +1,18 @@
 <template>
+  <div>
+    <headr/>
+  </div>
 </template>
 
 <script>
-export default {
-  name: 'App',
-  components: {
+  import headr from "@/components/header/headr.vue";
+
+  export default {
+    name: 'App',
+    components: {
+      headr,
+    }
   }
-}
 </script>
 
 <style>
