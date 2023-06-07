@@ -25,7 +25,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 91%;
-    margin: 0px auto;
+    width: calc(100vw / 1.1);
+    margin: 1vw auto;
   }
 </style>

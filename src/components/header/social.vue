@@ -24,10 +24,13 @@
     list-style: none;
     justify-content: space-between;
     align-items: center;
-    width: 100px;
+    width: calc(100vw / 15);
+    margin: 0;
+    padding: 0;
   }
 
   li {
-    width: 20px;
+    width: calc(100vw / 75);
+    height: calc(100vw / 75);
   }
 </style>

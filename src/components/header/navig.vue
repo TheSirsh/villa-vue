@@ -20,11 +20,12 @@
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    width: 386px;
+    width: calc(100vw / 3.87);
   }
 
   li {
-    font-size: 16px;
-    font-weight: normal;
+    font-size: calc(100vw / 93.75);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
   }
 </style>
