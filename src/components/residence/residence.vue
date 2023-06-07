@@ -18,8 +18,8 @@
 
 <style scoped>
   section {
-    width: 75.7%;
-    margin: 0px auto;
+    width: calc(100vw / 1.32);
+    margin: calc(100vw / 28.3) auto;
     display: flex;
     justify-content: space-between;
     align-items: center;

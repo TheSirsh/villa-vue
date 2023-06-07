@@ -20,17 +20,22 @@
   div {
     display: flex;
     flex-direction: column;
+    width: calc(100vw / 3.37);
   }
 
   h2 {
-    font-size: 38px;
+    font-size: calc(100vw / 39.47);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     margin: 0px;
     text-align: left;
   }
 
   p {
-    font-size: 16px;
-    margin: 0px;
+    font-size: calc(100vw / 93.75);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin: calc(100vw / 62.5) 0px;
     text-align: left;
   }
 </style>

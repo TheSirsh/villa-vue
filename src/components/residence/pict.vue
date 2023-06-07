@@ -12,7 +12,7 @@
 
 <style scoped>
   img {
-    width: 560px;
-    height: 555px;
+    width: calc(100vw / 2.68);
+    height: calc(100vw / 2.7);
   }
 </style>
