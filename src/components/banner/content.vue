@@ -17,31 +17,34 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    left: 200px;
-    top: 128px;
+    left: calc(100vw / 7.5);
+    top: calc(100vw / 11.72);
   }
 
   h1 {
-    width: 464px;
-    font-weight: bold;
-    font-size: 80px;
+    width: calc(100vw / 3.23);
+    font-size: calc(100vw / 18.75);
+    font-weight: 600;
     text-align: left;
     color: #ffffff;
     margin: 0px;
   }
 
   p {
-    width: 175px;
-    font-size: 36px;
+    width: calc(100vw / 8.57);
+    font-size: calc(100vw / 41.67);
+    font-weight: 500;
     text-align: left;
     color: #ffffff;
-    margin: 0px;
+    margin: calc(100vw / 166.67) 0px;
   }
 
   button {
-    width: 168px;
-    height: 47px;
-    font-size: 14px;
+    width: calc(100vw / 8.93);
+    height: calc(100vw / 31.91);
+    font-size: calc(100vw / 107.14);
+    font-weight: 400;
+    margin-top: calc(100vw / 75);
   }
 
 </style>

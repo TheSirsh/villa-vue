@@ -19,9 +19,11 @@
 <style scoped>
   section {
     position: relative;
-    width: 91%;
-    height: 600px;
+    width: calc(100vw / 1.1);
+    height: calc(100vw / 2.5);
     background-image: url("@/assets/jpg/banner-bg.jpg");
+    background-size: cover;
+    background-position: center;
     margin: 0px auto;
   }
 </style>
