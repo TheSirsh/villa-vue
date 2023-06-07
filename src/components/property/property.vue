@@ -20,7 +20,7 @@
   section {
     display: flex;
     flex-direction: column;
-    width: 80%;
-    margin: 0px auto;
+    width: calc(100vw / 1.24);
+    margin: calc(100vw / 22.39) auto;
   }
 </style>
