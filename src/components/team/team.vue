@@ -1,6 +1,8 @@
 <template>
- <pict/>
- <forms/>
+  <section>
+    <pict/>
+    <forms/>
+  </section>
 </template>
 
 <script>
@@ -13,3 +15,12 @@
     }
   }
 </script>
+
+<style scoped>
+  section {
+    width: 91%;
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-between;
+  }
+</style>
