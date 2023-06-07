@@ -12,3 +12,22 @@
 
   }
 </script>
+
+<style scoped>
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 329px;
+  }
+
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+</style>
