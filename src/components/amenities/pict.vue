@@ -11,8 +11,10 @@
 </script>
 
 <style scoped>
+
   img {
-    width: 680px;
-    height: 440px;
+    margin-top: calc(100vw / 30);
+    width: calc(100vw / 2.39);
+    height: calc(100vw / 3.41);
   }
 </style>

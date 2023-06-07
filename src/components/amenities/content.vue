@@ -18,18 +18,22 @@
 
 <style scoped>
   h2 {
-    font-size: 38px;
+    font-family: 'Poppins', sans-serif;
+    font-size: calc(100vw / 39.47);
+    font-weight: 600;
     color: #ffffff;
     text-align: left;
     margin: 0px;
-    width: 196px;
+    width: calc(100vw / 7.65);
   }
 
   p {
-    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-size: calc(100vw / 93.75);
+    font-weight: 400;
     color: #ffffff;
     text-align: left;
     margin: 0px;
-    width: 443px;
+    width: calc(100vw / 3.39);
   }
 </style>
