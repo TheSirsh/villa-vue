@@ -6,6 +6,7 @@
     <property/>
     <amenities/>
     <team/>
+    <footr/>
   </div>
 </template>
 
@@ -16,11 +17,12 @@
   import property from "@/components/property/property.vue";
   import amenities from "@/components/amenities/amenities.vue";
   import team from "@/components/team/team.vue";
+  import footr from "@/components/footer/footr.vue"
 
   export default {
     name: 'App',
     components: {
-      headr, banner, residence, property, amenities, team,
+      headr, banner, residence, property, amenities, team, footr,
     }
   }
 </script>
