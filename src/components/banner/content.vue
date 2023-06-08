@@ -19,6 +19,8 @@
     flex-direction: column;
     left: calc(100vw / 7.5);
     top: calc(100vw / 11.72);
+    margin: 0px;
+    max-width: calc(100vw / 3.23);
   }
 
   h1 {

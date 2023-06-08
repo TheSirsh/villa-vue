@@ -18,7 +18,6 @@
 
 <style scoped>
   h2 {
-    font-family: 'Poppins', sans-serif;
     font-size: calc(100vw / 39.47);
     font-weight: 600;
     color: #ffffff;
@@ -28,7 +27,6 @@
   }
 
   p {
-    font-family: 'Poppins', sans-serif;
     font-size: calc(100vw / 93.75);
     font-weight: 400;
     color: #ffffff;

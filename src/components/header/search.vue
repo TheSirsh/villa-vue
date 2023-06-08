@@ -10,9 +10,9 @@
   }
 </script>
 
-<style>
+<style scoped>
   img {
-    width: 18px;
-    height: 18px;
+    width: calc(100vw / 83.33);
+    height: calc(100vw / 83.33);
   }
 </style>

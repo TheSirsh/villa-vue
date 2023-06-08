@@ -13,7 +13,6 @@
 <style scoped>
  .logo {
   font-size: calc(100vw / 62.5);
-  font-family: 'Poppins', sans-serif;
   font-weight: bold;
  }
 </style>

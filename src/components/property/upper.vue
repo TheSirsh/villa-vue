@@ -20,7 +20,6 @@
   }
 
   h2 {
-    font-family: 'Poppins', sans-serif;
     font-size: calc(100vw / 39.47);
     font-weight: 600;
     width: calc(100vw / 4.04);

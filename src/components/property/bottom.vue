@@ -50,7 +50,6 @@
   }
 
   h3 {
-    font-family: 'Poppins', sans-serif;
     font-size: calc(100vw / 68.18);
     font-weight: 600;
     text-align: center;
@@ -59,7 +58,6 @@
   }
 
   p {
-    font-family: 'Poppins', sans-serif;
     font-size: calc(100vw / 107.14);
     font-weight: 400;
     text-align: center;

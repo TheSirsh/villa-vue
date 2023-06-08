@@ -46,7 +46,6 @@
   }
 
   p {
-    font-family: 'Poppins', sans-serif;
     color: #ffffff;
     font-size: calc(100vw / 93.75);
     font-weight: 400;

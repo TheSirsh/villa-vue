@@ -25,7 +25,6 @@
 
   li {
     font-size: calc(100vw / 93.75);
-    font-family: 'Poppins', sans-serif;
     font-weight: 500;
   }
 </style>

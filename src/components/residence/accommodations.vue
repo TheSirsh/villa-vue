@@ -63,14 +63,12 @@
 
   .text {
     font-size: calc(100vw / 107.14);
-    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: #888888;
   }
 
   .number {
     font-size: calc(100vw / 93.75);
-    font-family: 'Poppins', sans-serif;
     font-weight: 600;
   }
 

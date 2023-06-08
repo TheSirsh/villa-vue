@@ -25,7 +25,6 @@
 
   h2 {
     font-size: calc(100vw / 62.5);
-    font-family: 'Poppins', sans-serif;
     font-weight: 700;
   }
 
