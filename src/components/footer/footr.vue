@@ -23,8 +23,9 @@
 <style scoped>
   footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
+    height: calc(100vw / 4.45);
     background-color: #0A0A0A;
     color: #ffffff;
   }

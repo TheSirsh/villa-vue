@@ -18,16 +18,21 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 329px;
+    width: calc(100vw / 4.56);
+    text-align: left;
+
   }
 
   h2 {
-    font-size: 24px;
-    font-weight: bold;
+    font-size: calc(100vw / 62.5);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
   }
 
   p {
-    font-size: 16px;
+    font-size: calc(100vw / 93.75);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
   }
 
 </style>
