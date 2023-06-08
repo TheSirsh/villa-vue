@@ -57,6 +57,5 @@
     font-weight: 500;
     border: 1px solid #000000;
     background-color: #ffffff;
-    margin: 0px
   }
 </style>

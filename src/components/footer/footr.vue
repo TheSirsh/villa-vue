@@ -1,9 +1,13 @@
 <template>
   <footer>
-    <contact/>
-    <faqs/>
-    <links/>
-    <enquire/>
+    <div class="container">
+      <contact/>
+      <faqs/>
+      <links/>
+      <enquire/>
+    </div>
+    <hr>
+    <p>All Rights For This Website Reserved.</p>
   </footer>
 </template>
 
@@ -22,11 +26,30 @@
 
 <style scoped>
   footer {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
+    width: 100vw;
     height: calc(100vw / 4.45);
     background-color: #0A0A0A;
     color: #ffffff;
   }
+
+  .container {
+    display: flex;
+    justify-content: space-around;
+    width: calc(100vw / 1.1);
+    height: calc(100vw / 7.89);
+    margin: 0px auto;
+    padding-top: calc(100vw / 21.74);
+  }
+
+  hr {
+    width: calc(100vw / 1.1);
+  }
+
+  p {
+    font-size: calc(100vw / 114.29);
+    font-weight: 500;
+    margin: calc(100vw / 150) auto;
+    text-align: center;
+  }
+
 </style>

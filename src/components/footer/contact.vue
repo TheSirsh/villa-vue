@@ -26,11 +26,14 @@
   h2 {
     font-size: calc(100vw / 62.5);
     font-weight: 700;
+    margin-bottom: calc(100vw / 100);
+    margin-top: 0px;
   }
 
   p {
     font-size: calc(100vw / 93.75);
     font-weight: 400;
+    margin: 0;
   }
 
 </style>

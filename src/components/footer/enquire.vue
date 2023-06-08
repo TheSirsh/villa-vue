@@ -25,6 +25,8 @@
   h2 {
     font-size: calc(100vw / 62.5);
     font-weight: 700;
+    margin-bottom: calc(100vw / 100);
+    margin-top: 0px;
   }
 
   .form-text {
@@ -32,6 +34,8 @@
     border-bottom: 1px solid #ffffff;
     width: calc(100vw / 4.63);
     background-color: #0a0a0a;
+    font-size: calc(100vw / 107.14);
+    color: #ffffff;
   }
 
   .form-text::placeholder {
