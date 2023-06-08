@@ -39,6 +39,7 @@
     height: calc(100vw / 3.64);
     display: flex;
     justify-content: space-between;
+    text-align: center;
   }
 
   .container {

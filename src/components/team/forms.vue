@@ -7,6 +7,7 @@
     <input type="email" placeholder="EMAIL">
     <input type="tel" placeholder="TELEPHONE">
     <input type="text" placeholder="TITLE">
+    <input type="submit" value="SEND" class="send-button">
   </form>
 </template>
 
@@ -47,5 +48,15 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: #888888;
+  }
+
+  .send-button {
+    width: calc(100vw / 8.06);
+    height: calc(100vw / 30.61);
+    font-size: calc(100vw / 107.14);
+    font-weight: 500;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    margin: 0px
   }
 </style>
