@@ -28,13 +28,15 @@
 
 <style scoped>
   h2 {
-    font-size: 38px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: calc(100vw / 39.47);
     text-align: left;
   }
 
   .pict-container {
-    width: 648px;
-    height: 412px;
+    width: calc(100vw / 2.31);
+    height: calc(100vw / 3.64);
     display: flex;
     justify-content: space-between;
   }
@@ -42,7 +44,7 @@
   .container {
     position: relative;
     height: 100%;
-    width: 299px;
+    width: calc(100vw / 5.02);
   }
 
   img {
@@ -51,22 +53,26 @@
   }
 
   .text-contaner {
-    width: 240px;
-    height: 74px;
+    width: calc(100vw / 6.25);
+    height: calc(100vw / 20.27);
     background-color: #ffffff;
     position: absolute;
-    top: 312px;
-    left: 29px;
+    top: calc(100vw / 4.81);
+    left: calc(100vw / 51.72);
   }
 
   h3 {
-    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: calc(100vw / 83.33);
     margin: 0;
     padding: 0;
   }
 
   p {
-    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: calc(100vw / 107.14);
     margin: 0;
     padding: 0;
     color: #888888;

@@ -18,9 +18,9 @@
 
 <style scoped>
   section {
-    width: 91%;
+    width: calc(100vw / 1.36);
     display: flex;
-    margin: 0px auto;
+    margin: calc(100vw / 30) calc(100vw / 6.94) calc(100vw / 20) calc(100vw / 8.2);
     justify-content: space-between;
   }
 </style>

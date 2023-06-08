@@ -18,25 +18,34 @@
 
 <style scoped>
   form {
-    width: 391px;
+    width: calc(100vw / 3.83);
   }
 
   h2 {
-    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: calc(100vw / 53.57);
     margin: 0;
+    margin-bottom: calc(100vw / 62.5);
     padding: 0;
+    text-align: left;
   }
 
   input {
-    width: 391px;
-    height: 51px;
-    font-size: 16px;
+    width: 100%;
+    height: calc(100vw / 29.41);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: calc(100vw / 93.75);
     border: none;
     border-bottom: 1px solid #888888;
+    margin-bottom: calc(100vw / 100);
   }
 
   input::placeholder {
-    font-size: 16px;
+    font-size: calc(100vw / 93.75);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
     color: #888888;
   }
 </style>
