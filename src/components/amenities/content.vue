@@ -23,7 +23,7 @@
     font-weight: 600;
     color: #ffffff;
     text-align: left;
-    margin: 0px;
+    margin: calc(100vw / 30) 0px 0px 0px;
     width: calc(100vw / 7.65);
   }
 
@@ -33,7 +33,7 @@
     font-weight: 400;
     color: #ffffff;
     text-align: left;
-    margin: 0px;
+    margin: calc(100vw / 62.5) 0px;
     width: calc(100vw / 3.39);
   }
 </style>

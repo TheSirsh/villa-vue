@@ -1,28 +1,28 @@
 <template>
   <div class="characteristics">
-    <div>
+    <div class="characteristics-container">
       <p>Swimming Pool</p>
-      <p>45 Sq Ft</p>
+      <p class="characteristics-container_number">45 Sq Ft</p>
     </div>
-    <div>
+    <div class="characteristics-container">
       <p>Large Play Ground</p>
-      <p>80 Sq Ft</p>
+      <p class="characteristics-container_number">80 Sq Ft</p>
     </div>
-    <div>
+    <div class="characteristics-container">
       <p>High Security</p>
-      <p>24/7</p>
+      <p class="characteristics-container_number">24/7</p>
     </div>
-    <div>
+    <div class="characteristics-container">
       <p>Water Storage</p>
-      <p>1200 gal</p>
+      <p class="characteristics-container_number">1200 gal</p>
     </div>
-    <div>
+    <div class="characteristics-container">
       <p>Basement</p>
-      <p>2</p>
+      <p class="characteristics-container_number">2</p>
     </div>
-    <div>
+    <div class="characteristics-container">
       <p>Elevator</p>
-      <p>2</p>
+      <p class="characteristics-container_number">2</p>
     </div>
   </div>
 </template>
@@ -39,9 +39,23 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  p {
-    color: #ffffff;
-    font-size: 16px;
-    text-align: left;
+  .characteristics-container {
+    width: calc(100vw / 10.27);
+    height: calc(100vw / 27,78);
+    margin-bottom: calc(100vw / 83.33);
   }
+
+  p {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: calc(100vw / 93.75);
+    font-weight: 400;
+    text-align: left;
+    margin: 0px;
+  }
+
+  .characteristics-container_number {
+    font-weight: 600;
+  }
+
 </style>
