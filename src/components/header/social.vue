@@ -33,4 +33,20 @@
     width: calc(100vw / 75);
     height: calc(100vw / 75);
   }
+
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  li:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 25px 1px black, inset 0px 0px 5px 1px;
+  }
 </style>

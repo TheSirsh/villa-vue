@@ -49,4 +49,9 @@
     margin-top: calc(100vw / 75);
   }
 
+  button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
 </style>

@@ -58,4 +58,9 @@
     border: 1px solid #000000;
     background-color: #ffffff;
   }
+
+  .send-button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
 </style>

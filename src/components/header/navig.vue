@@ -27,4 +27,9 @@
     font-size: calc(100vw / 93.75);
     font-weight: 500;
   }
+
+  li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
 </style>
