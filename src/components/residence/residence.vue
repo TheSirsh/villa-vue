@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="residence">
     <content/>
     <pict/>
   </section>

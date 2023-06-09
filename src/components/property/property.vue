@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="property">
     <upper/>
     <bottom/>
   </section>

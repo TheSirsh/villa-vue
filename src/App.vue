@@ -23,7 +23,7 @@
     name: 'App',
     components: {
       headr, banner, residence, property, amenities, team, footr,
-    }
+    },
   }
 </script>
 

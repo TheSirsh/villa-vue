@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="amenities">
     <content/>
     <pict/>
   </section>
