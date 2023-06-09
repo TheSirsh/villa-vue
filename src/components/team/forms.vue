@@ -3,17 +3,51 @@
     <h2>
       Building a Future with our Help. Leave a message and our Agent will contact You.
     </h2>
-    <input type="text" placeholder="NAME">
-    <input type="email" placeholder="EMAIL">
-    <input type="tel" placeholder="TELEPHONE">
-    <input type="text" placeholder="TITLE">
-    <input type="submit" value="SEND" class="send-button">
+    <input type="text" placeholder="NAME" v-model="name">
+    <input type="email" placeholder="EMAIL" v-model="email">
+    <input type="tel" placeholder="TELEPHONE" v-model="telephone">
+    <input type="text" placeholder="TITLE" v-model="title">
+    <input type="submit" value="SEND" class="send-button" @click="openTeamPopup">
   </form>
+  <div class="team_popup-bg deactive" @click="closeTeamPopup">
+      <div class="team_popup deactive">
+        <h3>Check Your Data</h3>
+        <p>Your Name: {{ this.name }}</p>
+        <p>Your E-Mail: {{ this.email }}</p>
+        <p>Your Telephone: {{ this.telephone }}</p>
+        <p>Your Title: {{ this.title }}</p>
+        <button @click="closeTeamPopup"
+        >OK</button>
+      </div>
+    </div>
 </template>
 
 <script>
   export default {
-
+    data() {
+      return {
+        name: "",
+        email: "",
+        telephone: "",
+        title: "",
+      }
+    },
+    mounted() {
+        let teamPopupBg = document.querySelector(".team_popup-bg");
+        let teamPopup = document.querySelector(".team_popup");
+        this.teamPopupBg = teamPopupBg;
+        this.teamPopup = teamPopup;
+    },
+    methods: {
+      openTeamPopup() {
+        this.teamPopupBg.className = "team_popup-bg active";
+        this.teamPopup.className = "team_popup active";
+      },
+      closeTeamPopup() {
+        this.teamPopupBg.className = "team_popup-bg deactive";
+        this.teamPopup.className = "team_popup deactive";
+      }
+    }
   }
 </script>
 
@@ -63,4 +97,51 @@
     cursor: pointer;
     text-decoration: underline;
   }
+
+  .team_popup-bg {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    transition: 0.5s all;
+    cursor: pointer ;
+}  
+
+.team_popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background: #fff;
+    width: calc(100vw / 3.75);
+    padding: calc(100vw / 60);
+    transition: 0.5s all;
+    color: #0a0a0a; 
+}
+
+.team_popup-bg.deactive {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.active {
+    transform: translate(-50%, -50%) scale(1);
+    pointer-events: all;
+    transition: 0.5s all;
+}
+
+p{
+  color: #000000;
+}
+
+button {
+  width: calc(100vw / 9.93);
+  height: calc(100vw / 41.67);
+  background-color: #ffffff;
+}
 </style>
