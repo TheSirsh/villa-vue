@@ -1,21 +1,9 @@
 <template>
   <div class="bottom">
-    <div class="bottom-container">
+    <div class="bottom-container" v-for="highlight in highlights">
       <div class="bottom-container_text">
-        <h3>Amazing View</h3>
-        <p>the view is spectaclar from decktub or through the floor.</p>
-      </div>
-    </div>
-    <div class="bottom-container">
-      <div class="bottom-container_text">
-        <h3>Quiet Neghbour</h3>
-        <p>the view is spectaclar from decktub or through the floor.</p>
-      </div>
-    </div>
-    <div class="bottom-container">
-      <div class="bottom-container_text">
-        <h3>Housing Security</h3>
-        <p>the view is spectaclar from decktub or through the floor.</p>
+        <h3>{{ highlight.h3 }}</h3>
+        <p>{{ highlight.p }}</p>
       </div>
     </div>
   </div>
@@ -23,7 +11,15 @@
 
 <script>
   export default {
-
+    data() {
+      return {
+        highlights: [
+          {h3: "Amazing View", p: "the view is spectaclar from decktub or through the floor.", },
+          {h3: "Quiet Neghbour", p: "the view is spectaclar from decktub or through the floor.", },
+          {h3: "Housing Security", p: "the view is spectaclar from decktub or through the floor.", },
+        ]
+      }
+    }
   }
 </script>
 
