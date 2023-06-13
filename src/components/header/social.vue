@@ -1,13 +1,13 @@
 <template>
   <ul>
     <li>
-      <a href="#"><img src="@/assets/svg/Instagramm.svg" alt="Instagramm"></a>
+      <a href="https://www.instagram.com/"><img src="@/assets/svg/Instagramm.svg" alt="Instagramm"></a>
     </li>
     <li>
-      <a href="#"><img src="@/assets/svg/Twitter.svg" alt="Twitter"></a>
+      <a href="https://twitter.com/"><img src="@/assets/svg/Twitter.svg" alt="Twitter"></a>
     </li>
     <li>
-      <a href="#"><img src="@/assets/svg/Facebook.svg" alt="Facebook"></a>
+      <a href="https://www.facebook.com/"><img src="@/assets/svg/Facebook.svg" alt="Facebook"></a>
     </li>
   </ul>
 </template>
