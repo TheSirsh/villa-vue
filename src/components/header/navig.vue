@@ -1,25 +1,24 @@
 <template>
   <nav>
-    <li @click="scroll('header')"
-      >Home
-    </li>
-    <li @click="scroll('residence')"
-      >About
-    </li>      
-    <li @click="scroll('property')"
-      >Highlights
-    </li>
-    <li @click="scroll('amenities')"
-      >Amenities
-    </li>
-    <li @click="scroll('team')"
-      >Team
+    <li v-for="nav in navs" @click="scroll(nav.id)">
+      {{ nav.name }}
     </li>
   </nav>
 </template>
 
 <script>
   export default {
+    data() {
+      return {
+        navs: [
+          {name: "Home", id: "header", },
+          {name: "About", id: "residence", },
+          {name: "Highlights", id: "property", },
+          {name: "Amenities", id: "amenities", },
+          {name: "Team", id: "team", },
+        ],
+      }
+    },
     methods: {
       scroll(id) {
         let elem = document.getElementById(`${id}`);
@@ -27,7 +26,7 @@
           top: elem.offsetTop,
           behavior: "smooth",
         })
-      }
+      },
     }
   }
 </script>
