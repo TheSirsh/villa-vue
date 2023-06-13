@@ -2,18 +2,11 @@
   <div>
     <h2>Our team</h2>
     <div class="pict-container">
-      <div class="container">
-        <img src="@/assets/jpg/team-woman.jpg" alt="Sean Walker">
+      <div class="container" v-for="team in teams">
+        <img :src=setImage(team.src) v-bind:alt=team.alt>
         <div class="text-contaner">
-          <h3>Sean Walker</h3>
-          <p>Renting Agent</p>
-        </div>
-      </div>
-      <div class="container">
-        <img src="@/assets/jpg/team-man.jpg" alt="Jenish Desai">
-        <div class="text-contaner">
-          <h3>Jenish Desai</h3>
-          <p>SEO</p>
+          <h3>{{ team.h3 }}</h3>
+          <p>{{ team.p }}</p>
         </div>
       </div>
     </div>
@@ -22,7 +15,19 @@
 
 <script>
   export default {
-    
+    data() {
+      return {
+        teams: [
+          { src: "team-sean.jpg", alt: "Sean Walker", h3: "Sean Walker", p: "Renting Agent", },
+          { src: "team-jenish.jpg", alt: "Jenish Desai", h3: "Jenish Desai", p: "SEO", },
+        ]
+      }
+    },
+    methods: {
+      setImage(src) {
+        return require(`@/assets/jpg/${src}`)
+      }
+    }
   }
 </script>
 
