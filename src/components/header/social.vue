@@ -1,20 +1,29 @@
 <template>
   <ul>
-    <li>
-      <a href="https://www.instagram.com/"><img src="@/assets/svg/Instagramm.svg" alt="Instagramm"></a>
-    </li>
-    <li>
-      <a href="https://twitter.com/"><img src="@/assets/svg/Twitter.svg" alt="Twitter"></a>
-    </li>
-    <li>
-      <a href="https://www.facebook.com/"><img src="@/assets/svg/Facebook.svg" alt="Facebook"></a>
+    <li v-for="social in socials">
+      <a v-bind:href="social.href">
+        <img :src=setImage(social.src) v-bind:alt="social.alt">
+      </a>
     </li>
   </ul>
 </template>
 
 <script>
   export default {
-    
+    data() {
+      return {
+        socials: [
+          { href: "https://www.instagram.com/", src: "Instagramm.svg", alt: "Instagramm", },
+          { href: "https://twitter.com/", src: "Twitter.svg", alt: "Twitter", },
+          { href: "https://www.facebook.com/", src: "Facebook.svg", alt: "Facebook", },
+        ]
+      }
+    },
+    methods: {
+      setImage(src) {
+        return require(`@/assets/svg/${src}`)
+      }
+    }
   }
 </script>
 
