@@ -1,31 +1,10 @@
 <template>
   <div class="container">
-    <div class="container__text">
-      <img src="@/assets/svg/beds.svg" alt="Beds">
+    <div class="container__text" v-for="accommodation in accommodations">
+      <img :src="setImage(accommodation.src)" v-bind:alt="accommodation.alt">
       <div>
-        <p class="text">Beds</p>
-        <p class="number">5</p>
-      </div>
-    </div>
-    <div class="container__text">
-      <img src="@/assets/svg/baths.svg" alt="Baths">
-      <div>
-        <p class="text">Baths</p>
-        <p class="number">7</p>
-      </div>
-    </div>
-    <div class="container__text">
-      <img src="@/assets/svg/garages.svg" alt="Garages">
-      <div>
-        <p class="text">Garages</p>
-        <p class="number">4</p>
-      </div>
-    </div>
-    <div class="container__text">
-      <img src="@/assets/svg/kitchens.svg" alt="Kitchens">
-      <div>
-        <p class="text">Kitchens</p>
-        <p class="number">2</p>
+        <p class="text">{{ accommodation.text }}</p>
+        <p class="number">{{ accommodation.number }}</p>
       </div>
     </div>
   </div>
@@ -33,7 +12,22 @@
 
 <script>
   export default {
+    data() {
+      return {
+        accommodations: [
+          {src: "beds.svg", alt: "Beds", text: "Beds", number: "5", },
+          {src: "baths.svg", alt: "Baths", text: "Baths", number: "7", },
+          {src: "garages.svg", alt: "Garages", text: "Garages", number: "4", },
+          {src: "kitchens.svg", alt: "Kitchens", text: "Kitchens", number: "2", },
+        ]
+      }
+    },
+    methods: {
+      setImage(src) {
+        return require(`@/assets/svg/${src}`)
+      }
 
+    }
   }
 </script>
 
